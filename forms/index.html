@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="..\forms\Libraries\style.css">
+    <script src="..\forms\Libraries\javascript.js"></script>
+    <title>Formulário HRES</title>
+</head>
+<body>
+    <form action="https://api.staticforms.xyz/submit" method="post">
+        <input type="hidden" name="accessKey" value="c14b34d0-b1e6-4613-8c7c-47cc8ef55ad3"/>
+        <input type="hidden" name="redirectTo" value="https://hresweb01/si-hres/">
+        <h1>Comissão Ética - HRES</h1>
+
+
+        <label for="name">Nome:</label>
+        <input type="text" id="btn" placeholder=" Seu nome" required="required" name="name"/><br><br>
+        
+        <label for="phone">Fone:</label>
+        <input type="tel" id="btn" placeholder=" (xx)xxx-xx-xx-xx" required="required" name="phone"/><br><br>
+        
+        <label for="email">E-mail:</label>
+        <input type="email" id="btn" placeholder=" seuEmail@email.com" required="required" name="email"/><br><br>
+
+        <label for="$myCustomField1">Setor:</label>
+        <input type="text" id="btn" placeholder=" Seu Setor" required="required" name="$myCustomField1"/><br><br>        
+
+        <textarea name="message" id="desc" cols="30" rows="10" placeholder="Descrição:" required='required'></textarea><br><br>
+
+        
+        
+        <input type="submit" class="enviar" onclick="enviar();" value="Enviar">
+    </form>
+    
+</body>
+</html>

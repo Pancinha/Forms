@@ -1,0 +1,58 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #7c8d87;
+    color: #ffffff;
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 35px;
+    margin-bottom: 24px;
+    
+    
+}
+form{
+    margin-top: 7%;
+    text-align: center;
+    background-color: #3e4c3f;
+    height: 50%;
+    width: 38%;
+
+}
+.enviar{
+    font-family: sans-serif;
+    margin-bottom: 30px;
+    height: 31px;
+    width: 80%;
+    background-color: #8BAD89;
+    border: none;
+    color: white;
+    font-size: 19px;
+    text-align: center;
+}
+
+label{
+    
+    font-size: 19px;
+    font-family: sans-serif;
+}
+#desc{
+    margin-top: 18px;
+    font-family: unset;
+    width: 80%;
+    border-color: #0e2d27;
+    border-width: 2px;
+    border-style: solid;
+    font-size: 19px;
+    border-radius: 5px;
+}
+#btn, #btn1{
+    font-family: unset;
+    font-size: 16px;
+    border-radius: 5px;
+
+}
